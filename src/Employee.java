@@ -21,6 +21,26 @@ public class Employee {
         return salary;
     }
 
+    public int getDivision() {
+        return division;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+
+    public void setDivision(int division) {
+        this.division = division;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
     @Override
     public String toString() {
         return fullName + " отдел: " + division + " зарплата: " + salary;
